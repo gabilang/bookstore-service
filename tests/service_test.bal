@@ -3,7 +3,7 @@ import bookstore_service.models;
 import ballerina/http;
 import ballerina/test;
 
-final http:Client bookClient = check new ("http://localhost:9091/books");
+final http:Client bookClient = check new ("http://localhost:8090/books");
 
 final models:BookInput dune = {title: "Dune", author: "Frank Herbert", year: 1965, price: 9.99};
 final models:BookInput neuromancer = {title: "Neuromancer", author: "William Gibson", year: 1984, price: 7.50};
