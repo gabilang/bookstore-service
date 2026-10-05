@@ -4,7 +4,7 @@ import bookstore_service.store;
 import ballerina/http;
 
 # Port the bookstore service listens on.
-configurable int port = 9090;
+configurable int port = 8090;
 
 final store:BookStore bookStore = new;
 
