@@ -2,6 +2,16 @@
 
 A Ballerina REST service for managing a catalog of books, served at `/books`.
 
+## Endpoints
+
+| Method | Path | Description |
+|--------|------|-------------|
+| GET | `/books` | List books, optionally filtered by `?author=` |
+| GET | `/books/{id}` | Get one book |
+| POST | `/books` | Add a book |
+| PUT | `/books/{id}` | Replace a book |
+| DELETE | `/books/{id}` | Delete a book |
+
 ## Running
 
 ```bash
